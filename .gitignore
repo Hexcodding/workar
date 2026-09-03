@@ -1,0 +1,34 @@
+# Dependencies & build
+node_modules
+dist
+dist-ssr
+*.local
+release
+out
+
+# Logs & runtime
+logs
+*.log
+npm-debug.log*
+
+# Secrets & local settings
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Private / not for public GitHub
+materials/
+private/
+*.key
+*.pem
